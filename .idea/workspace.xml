@@ -24,8 +24,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="169">
-              <caret line="25" column="29" lean-forward="false" selection-start-line="25" selection-start-column="29" selection-end-line="25" selection-end-column="29" />
+            <state relative-caret-position="81">
+              <caret line="15" column="72" lean-forward="false" selection-start-line="15" selection-start-column="72" selection-end-line="15" selection-end-column="72" />
               <folding />
             </state>
           </provider>
@@ -194,7 +194,7 @@
       <option name="presentableId" value="Default" />
       <updated>1487633676252</updated>
       <workItem from="1487633679672" duration="1181000" />
-      <workItem from="1487635133250" duration="6356000" />
+      <workItem from="1487635133250" duration="6754000" />
     </task>
     <task id="LOCAL-00001" summary="Initial project setup">
       <created>1487634983262</created>
@@ -259,11 +259,18 @@
       <option name="project" value="LOCAL" />
       <updated>1487658436106</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Fixed last bug, var for new current date needed to be added into the function for updating the time as it was only updating once">
+      <created>1487658685523</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1487658685523</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7537000" />
+    <option name="totallyTimeSpent" value="7935000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -312,7 +319,8 @@
     <MESSAGE value="Breaking variables up into functions that make sense" />
     <MESSAGE value="Updated calculations, cleaned up repetition, called the function" />
     <MESSAGE value="Using getElementById method and further refining how code it output in real-time, have to fix bug that is causing the display to update incorrectly on multiple lines" />
-    <option name="LAST_COMMIT_MESSAGE" value="Using getElementById method and further refining how code it output in real-time, have to fix bug that is causing the display to update incorrectly on multiple lines" />
+    <MESSAGE value="Fixed last bug, var for new current date needed to be added into the function for updating the time as it was only updating once" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed last bug, var for new current date needed to be added into the function for updating the time as it was only updating once" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -322,8 +330,8 @@
     <entry file="file://$PROJECT_DIR$/index2.html" />
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="169">
-          <caret line="25" column="29" lean-forward="false" selection-start-line="25" selection-start-column="29" selection-end-line="25" selection-end-column="29" />
+        <state relative-caret-position="81">
+          <caret line="15" column="72" lean-forward="false" selection-start-line="15" selection-start-column="72" selection-end-line="15" selection-end-column="72" />
           <folding />
         </state>
       </provider>
