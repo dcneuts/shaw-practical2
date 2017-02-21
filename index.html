@@ -11,9 +11,10 @@
 
 <script>
     var start = new Date(2017, 2, 20, 23); //fix this to current year mo date hours
-    var now = new Date();
+
     updateCountdown();
     setInterval(updateCountdown, 1000);
+
     function updateCountdown() {
         var count = timeRemaining();
         document.getElementById("hours").innerHTML = count.hours;
@@ -22,6 +23,7 @@
     }
 
     function timeRemaining() {
+        var now = new Date();
         var timeLeft = start.getTime() - now.getTime(); //in milliseconds
         var hours = timeLeft / (1000 * 60 * 60);
         hours = Math.floor(hours);
