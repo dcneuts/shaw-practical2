@@ -13,7 +13,8 @@
     var now = new Date();
     var timeLeft = start.getTime() - now.getTime(); //in milliseconds
     var hours = timeLeft / (1000 * 60 * 60);
-    var minutes = timeLeft / (1000 * 60) - Math.floor(hours * 60);
+    var minutes = timeLeft / (1000 * 60) - Math.floor(hours) * 60;
+    var seconds = timeLeft / (1000) - Math.floor(hours) * 60 - Math.floor(minutes) * 60;
 
     document.write(start.getFullYear());
 </script>
