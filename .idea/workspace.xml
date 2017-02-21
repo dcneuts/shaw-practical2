@@ -24,8 +24,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="430">
-              <caret line="27" column="41" lean-forward="false" selection-start-line="27" selection-start-column="41" selection-end-line="27" selection-end-column="41" />
+            <state relative-caret-position="140">
+              <caret line="14" column="22" lean-forward="false" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -194,7 +194,7 @@
       <option name="presentableId" value="Default" />
       <updated>1487633676252</updated>
       <workItem from="1487633679672" duration="1181000" />
-      <workItem from="1487635133250" duration="5240000" />
+      <workItem from="1487635133250" duration="5792000" />
     </task>
     <task id="LOCAL-00001" summary="Initial project setup">
       <created>1487634983262</created>
@@ -238,11 +238,18 @@
       <option name="project" value="LOCAL" />
       <updated>1487656816915</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Breaking variables up into functions that make sense">
+      <created>1487657555964</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1487657555964</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6421000" />
+    <option name="totallyTimeSpent" value="6973000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -288,7 +295,8 @@
     <MESSAGE value="Fixed calculations, needed 60 outside of parentheses" />
     <MESSAGE value="Creating output for testing before moving on to next section" />
     <MESSAGE value="Troubleshooting incorrect output from functions" />
-    <option name="LAST_COMMIT_MESSAGE" value="Troubleshooting incorrect output from functions" />
+    <MESSAGE value="Breaking variables up into functions that make sense" />
+    <option name="LAST_COMMIT_MESSAGE" value="Breaking variables up into functions that make sense" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -298,8 +306,8 @@
     <entry file="file://$PROJECT_DIR$/index2.html" />
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="430">
-          <caret line="27" column="41" lean-forward="false" selection-start-line="27" selection-start-column="41" selection-end-line="27" selection-end-column="41" />
+        <state relative-caret-position="140">
+          <caret line="14" column="22" lean-forward="false" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
           <folding />
         </state>
       </provider>
