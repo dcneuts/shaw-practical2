@@ -2,9 +2,20 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Shaw Academy Practical Exercise</title>
+    <title>Shaw Academy Practical Countdown Exercise</title>
 </head>
 <body>
+<p id="hours"></p>
+<p id="minutes"></p>
+<p id="seconds"></p>
+<script>
+    var start = new Date(2016, 7, 4, 21);
+    var now = new Date();
+    var timeLeft = start.getTime() - now.getTime(); //in milliseconds
+    var hours = timeLeft / (1000 * 60 * 60);
+    var minutes = timeLeft / (1000 * 60) - Math.floor(hours * 60);
 
+    document.write(start.getFullYear());
+</script>
 </body>
 </html>
