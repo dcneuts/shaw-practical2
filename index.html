@@ -13,11 +13,12 @@
     var start = new Date(2017, 2, 20, 23); //fix this to current year mo date hours
     var now = new Date();
     updateCountdown();
+    setInterval(updateCountdown, 1000);
     function updateCountdown() {
         var count = timeRemaining();
-        document.write("<p>" + count.hours + "</p>");
-        document.write("<p>" + count.minutes + "</p>");
-        document.write("<p>" + count.seconds + "</p>");
+        document.getElementById("hours").innerHTML = count.hours;
+        document.getElementById("minutes").innerHTML = count.minutes;
+        document.getElementById("seconds").innerHTML = count.seconds;
     }
 
     function timeRemaining() {
