@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b98eaf4e-74bb-4b56-98e8-56867c073c4c" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/countdown.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -203,7 +201,7 @@
       <option name="presentableId" value="Default" />
       <updated>1487633676252</updated>
       <workItem from="1487633679672" duration="1181000" />
-      <workItem from="1487635133250" duration="7868000" />
+      <workItem from="1487635133250" duration="7979000" />
     </task>
     <task id="LOCAL-00001" summary="Initial project setup">
       <created>1487634983262</created>
@@ -282,11 +280,18 @@
       <option name="project" value="LOCAL" />
       <updated>1487659103305</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Reworked index.html and added countdown.php as a temporary solutions, despite non-formal PHP format for this lesson.">
+      <created>1487660206622</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1487660206622</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9049000" />
+    <option name="totallyTimeSpent" value="9160000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -299,7 +304,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21056548" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32850242" sideWeight="0.49702382" order="6" side_tool="false" content_ui="tabs" />
@@ -337,7 +342,8 @@
     <MESSAGE value="Using getElementById method and further refining how code it output in real-time, have to fix bug that is causing the display to update incorrectly on multiple lines" />
     <MESSAGE value="Fixed last bug, var for new current date needed to be added into the function for updating the time as it was only updating once" />
     <MESSAGE value="Created a modular version that was not dependent upon HTML ID and wrapped setInterval in an anonymous function per MDN" />
-    <option name="LAST_COMMIT_MESSAGE" value="Created a modular version that was not dependent upon HTML ID and wrapped setInterval in an anonymous function per MDN" />
+    <MESSAGE value="Reworked index.html and added countdown.php as a temporary solutions, despite non-formal PHP format for this lesson." />
+    <option name="LAST_COMMIT_MESSAGE" value="Reworked index.html and added countdown.php as a temporary solutions, despite non-formal PHP format for this lesson." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
