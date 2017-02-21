@@ -8,17 +8,25 @@
 <p id="hours"></p>
 <p id="minutes"></p>
 <p id="seconds"></p>
-<script>
-    var start = new Date(2016, 7, 4, 21);
-    var now = new Date();
-    var timeLeft = start.getTime() - now.getTime(); //in milliseconds
-    var hours = timeLeft / (1000 * 60 * 60);
-    var minutes = timeLeft / (1000 * 60) - Math.floor(hours) * 60;
-    var seconds = timeLeft / (1000) - Math.floor(hours) * 60 - Math.floor(minutes) * 60;
 
-    document.write("<p>" + hours + "</p>");
-    document.write("<p>" + minutes + "</p>");
-    document.write("<p>" + seconds + "</p>");
+<script>
+    var start = new Date(2017, 2, 20, 21); //fix this to current year mo date hours
+    var now = new Date();
+
+    function updateCountdown() {
+        var count=timeRemaining();
+        document.write("<p>" + hours + "</p>");
+        document.write("<p>" + minutes + "</p>");
+        document.write("<p>" + seconds + "</p>");
+    }
+
+    function timeRemaining() {
+        var timeLeft = start.getTime() - now.getTime(); //in milliseconds
+        var hours = timeLeft / (1000 * 60 * 60);
+        var minutes = timeLeft / (1000 * 60) - Math.floor(hours) * 60;
+        var seconds = timeLeft / (1000) - Math.floor(hours) * 60 * 60 - Math.floor(minutes) * 60;
+        return {hours:Math.floor(hours)};
+    }
 </script>
 </body>
 </html>

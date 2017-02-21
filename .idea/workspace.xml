@@ -24,8 +24,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="440">
-              <caret line="20" column="42" lean-forward="false" selection-start-line="20" selection-start-column="42" selection-end-line="20" selection-end-column="42" />
+            <state relative-caret-position="430">
+              <caret line="27" column="41" lean-forward="false" selection-start-line="27" selection-start-column="41" selection-end-line="27" selection-end-column="41" />
               <folding />
             </state>
           </provider>
@@ -194,7 +194,7 @@
       <option name="presentableId" value="Default" />
       <updated>1487633676252</updated>
       <workItem from="1487633679672" duration="1181000" />
-      <workItem from="1487635133250" duration="3783000" />
+      <workItem from="1487635133250" duration="5240000" />
     </task>
     <task id="LOCAL-00001" summary="Initial project setup">
       <created>1487634983262</created>
@@ -224,11 +224,25 @@
       <option name="project" value="LOCAL" />
       <updated>1487655373302</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Creating output for testing before moving on to next section">
+      <created>1487656107199</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1487656107199</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Troubleshooting incorrect output from functions">
+      <created>1487656816915</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1487656816915</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4964000" />
+    <option name="totallyTimeSpent" value="6421000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -272,9 +286,9 @@
     <MESSAGE value="System file update" />
     <MESSAGE value="Added variables for counter" />
     <MESSAGE value="Fixed calculations, needed 60 outside of parentheses" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixed calculations, needed 60 outside of parentheses" />
-    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
-    <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
+    <MESSAGE value="Creating output for testing before moving on to next section" />
+    <MESSAGE value="Troubleshooting incorrect output from functions" />
+    <option name="LAST_COMMIT_MESSAGE" value="Troubleshooting incorrect output from functions" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -284,8 +298,8 @@
     <entry file="file://$PROJECT_DIR$/index2.html" />
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="20" column="42" lean-forward="false" selection-start-line="20" selection-start-column="42" selection-end-line="20" selection-end-column="42" />
+        <state relative-caret-position="430">
+          <caret line="27" column="41" lean-forward="false" selection-start-line="27" selection-start-column="41" selection-end-line="27" selection-end-column="41" />
           <folding />
         </state>
       </provider>
